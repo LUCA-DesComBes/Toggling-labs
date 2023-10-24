@@ -1,0 +1,32 @@
+*{
+  background-color: #2596be;
+  margin-top: 7%;
+  text-align: center;
+  justify-content: center;
+}
+option{
+  background-color: white;
+}
+#button{
+  background-color: white; 
+  border-radius: 30px;
+}
+#Select{
+  background-color: white;
+  display: none;
+}
+.container{
+  background: white;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+@media screen and (min-witdh: 480px) {
+    #button{
+      display: none;
+      color: white;
+    }
+    #Select{
+      display: inline-block;
+    }
+}

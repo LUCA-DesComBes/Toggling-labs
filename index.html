@@ -4,10 +4,27 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Toggling-Labs</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div class="container">
     <script type="module" src="/main.js"></script>
+    <button type="button" id="priceButton">
+      Sort by price
+    </button>
+    <button type="button" id="nameButton">
+      Sort by name
+    </button>
+    <button type="button" id="relevenceButton">
+      Sort by relevence
+    </button>
+      <select name="select-by" id="Select">
+        <option value="price">Sort by price</option>
+        <option value="name">Sort by name</option>
+        <option value="relevence">Sort by relevence</option>
+      </select>
+    </div>
+    
   </body>
 </html>
